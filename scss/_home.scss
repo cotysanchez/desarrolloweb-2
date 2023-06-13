@@ -1,4 +1,5 @@
-.tituloH1 {
+
+.tituloH1 { 
     color: rgb(255, 255, 255);
     position:absolute;
     z-index: 5;
@@ -9,21 +10,26 @@
     animation-delay: 1s;
     animation-iteration-count: 2;
     animation-direction: normal;
-    animation-fill-mode: backwards;
+    animation-fill-mode: backwards; 
+
 }
+
 @keyframes move {
     0% {
         translate: 100%;
     }
 }
+
+
 .container-fluid {
     --bs-gutter-x: 0;
 }
 
 
-.container-fluid2 {
-    height: 450px;
-    background-color: rgb(29, 28, 28);
+.container-padre1 {
+    background-color:rgb(221, 221, 221);
+    
+    padding: 2rem;
  
 }
 
@@ -33,14 +39,13 @@
 
 .props2 {
     width: 300px;
-    height: 350px;
     background-color: rgb(188, 201, 206);
     color: #000000;
-    margin-top: 60px; 
-    margin-left: 40px;
-    margin-bottom: 160px;
-    margin-right: 40px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
 }
 
 .tituloCajaA {
@@ -55,3 +60,10 @@
 .tituloCajaC {
     padding: 25px 10px 0px 20px;
 }
+
+.btn-primary {
+    color: #fff  
+}
+
+
+background-color: rgb(29, 28, 28);
