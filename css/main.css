@@ -1,42 +1,3 @@
-* { /* ----- */
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
-
-/********** Fuentes **********/
-@font-face {
-  font-family: "PlayfairDisplay-SemiBold";
-  src: url("../assets/fuente/PlayfairDisplay-SemiBold.ttf");
-}
-@font-face {
-  font-family: "Lato-Regular";
-  src: url("../assets/fuente/Lato-Regular.ttf");
-}
-@font-face {
-  font-family: "Lato-Italic";
-  src: url("../assets/fuente/Lato-Italic.ttf");
-}
-.playfairDisplay {
-  font-family: "PlayfairDisplay-SemiBold";
-  font-size: 25px;
-}
-
-.latoRegular {
-  font-family: "Lato-Regular", sans-serif;
-  font-size: 18px;
-}
-
-.latoItalic {
-  font-family: "Lato-Italic", sans-serif;
-  font-size: 18px;
-}
-
-/********  Container Fluid *******/
-.container-fluid {
-  --bs-gutter-x: 0;
-}
-
 .tituloH1 {
   color: rgb(255, 255, 255);
   position: absolute;
@@ -56,6 +17,10 @@
     translate: 100%;
   }
 }
+.container-fluid {
+  --bs-gutter-x: 0;
+}
+
 .container-fluid2 {
   height: 450px;
   background-color: rgb(29, 28, 28);
@@ -87,6 +52,40 @@
 
 .tituloCajaC {
   padding: 25px 10px 0px 20px;
+}
+
+/********** Fuentes **********/
+@font-face {
+  font-family: "PlayfairDisplay-SemiBold";
+  src: url("../assets/fuente/PlayfairDisplay-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("../assets/fuente/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: "Lato-Italic";
+  src: url("../assets/fuente/Lato-Italic.ttf");
+}
+.playfairDisplay {
+  font-family: "PlayfairDisplay-SemiBold";
+  font-size: 25px;
+}
+
+.latoRegular {
+  font-family: "Lato-Regular", sans-serif;
+  font-size: 18px;
+}
+
+.latoItalic {
+  font-family: "Lato-Italic", sans-serif;
+  font-size: 18px;
+}
+
+* { /* ----- */
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.css.map */
