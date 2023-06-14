@@ -23,6 +23,7 @@
 
 .container-fluid {
     --bs-gutter-x: 0;
+    background-color: rgb(29, 28, 28);
 }
 
 
@@ -42,9 +43,7 @@
     color: #000000;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    
-    
+    justify-content: space-between; 
 }
 
 .tituloCajaA {
@@ -66,19 +65,21 @@
 
 /***** Seccion 2 *****/
 .tituloSoluciones {
-    padding-top: 5px;
-    padding-left: 40px;
+    padding-top: 40px;
+    padding-left: 85px;
     padding-bottom: 15px;
-    color: #f#cf4141ff;
+    color: #cf4141ff;
 }
 
 .contenidoCajaLista{
-    padding: 10px 32px 25px 30px;
+    padding: 10px 32px 25px 85px;
     color: #cf4141;
     
 }
 
-
+.imagenSoluciones {
+    padding-top: 50px;
+}
 
 
 
